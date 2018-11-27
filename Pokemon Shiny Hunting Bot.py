@@ -22,7 +22,7 @@ def Comparar():
 		print("shiny encontrado tras",soft_reset,"soft reset") #print the number of restarts until reaching the shiny
 		
 	else:
-		++soft_reset # increase the counter
+		soft_reset += 1 # increase the counter
 		os.remove("Pokemon_Esmeralda-0.png") #remove the screenshoot
 		
 
